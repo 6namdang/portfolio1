@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoang Dang's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="loadContent('home')" class="home-button">Home</button>
+            <div class="nav-buttons">
+                <button onclick="loadContent('resume')">Resume</button>
+                <button onclick="loadContent('projects')">Projects</button>
+                <button onclick="loadContent('work')">Work Experiences</button> <!-- New button for Work Experiences -->
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+        <!-- Dynamic content will be loaded here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hoang Dang</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
